@@ -1,0 +1,6 @@
+        <dl>
+            <dt>¿Sabes el lenguaje que se usa en CSGO?</dt>
+            <dd>Es sencillo de entender los lugares de cada zona del mapa para decir:</dd>
+            <dd>"Base de los Policias" puedes decir <b>"CT"</b>, "Base de los Terroristas" puedes decir "TT".</dd>
+        </dl>
+    </div>
