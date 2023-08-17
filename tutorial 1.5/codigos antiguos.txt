@@ -1,0 +1,31 @@
+
+body{
+    color: white;
+    font-family: Arial;
+}
+header {
+    text-align: center;
+    padding: 25px;
+}
+
+aside{
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-top: 25px;
+}
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+section {
+    padding: 25px;
+    text-align: left;
+}
+footer {
+    text-align: center;
+    padding: 25px;
+}

@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(37, 35, 35);
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    font-family: Arial;
+}
+.titulo{
+    text-align: center;
+}
+.titulo .titulo__texto{
+    color: rgb(4, 255, 171);
+}
+.subtit{
+    text-align: center;
+}
+.formulario{
+    text-align: center;
+}
+.pies{
+    text-align: center;
+}
+.pie-contac{
+    text-align: center;
+}
