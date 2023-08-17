@@ -3,42 +3,23 @@ body {
     margin: 0;
     padding: 0;
 }
-
 body{
     color: white;
     font-family: Arial;
+    font-weight: bold;
 }
-header {
-    text-align: center;
-    padding: 25px;
-}
-
-aside{
+.titulo{
     text-align: center;
 }
-
-nav {
-    text-align: center;
-    margin-top: 25px;
-}
-nav a {
-    margin: 10px;
-    color: white;
-    text-decoration: none;
-}
-section {
-    padding: 25px;
-    text-align: left;
-}
-footer {
-    text-align: center;
-    padding: 25px;
-}
-
-#Encabezado{
+.subtit{
     text-align: center;
 }
-
-#formulario{
+.formulario{
+    text-align: center;
+}
+.pies{
+    text-align: center;
+}
+.pie-contac{
     text-align: center;
 }
