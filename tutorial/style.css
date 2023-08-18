@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(35, 33, 33);
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+}
+.Encabezado .Encabezado__texto{
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+}
+.subtit{
+    text-align: center;
+}
+.formulario{
+    text-align: center;
+}
+.pies{
+    text-align: center;
+}
+.pie-contac{
+    text-align: center;
+}
+.titulo__logo-primero{
+    width: 10%;
+    border-radius: 50%;
+    border: 5px white solid;
+}
+.titulo__logo-segundo{
+    width: 10%;
+    border-radius: 50%;
+    border: 5px white solid;
+}
+.boton{
+    width:100%;
+}
+.pies__logo{
+    width: 10%;
+    border-radius: 25%;
+    border: 5px white solid;
+}
+.pie-contac__logogithub{
+    border-radius: 50%;
+    border: 5px white solid;
+    width: 125px;
+    height: 125px;
+}
+.pie-contac__logotwitter{
+    border-radius: 50%;
+    border: 5px white solid;
+    width: 100px;
+    height: 100px;
+}
+.pie-contac__logodiscord{
+    border-radius: 50%;
+    border: 5px white solid;
+    width: 150px;
+    height: 125px;
+}
+.pie-contac__logosteam{
+    border-radius: 50%;
+    border: 5px white solid;
+    width: 100px;
+    height: 100px;
+}
