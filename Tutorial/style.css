@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(37, 35, 35);
+    background-color: rgb(35, 33, 33);
     margin: 0;
     padding: 0;
 }
@@ -7,6 +7,9 @@ body{
     color: white;
     font-family: Arial;
     font-weight: bold;
+}
+.Encabezado .Encabezado__texto{
+    text-align: center;
 }
 .titulo{
     text-align: center;
@@ -22,4 +25,58 @@ body{
 }
 .pie-contac{
     text-align: center;
+}
+.titulo__logo-primero{
+    width: 10%;
+    border-radius: 50%;
+    border: 5px white solid;
+}
+.titulo__logo-segundo{
+    width: 10%;
+    border-radius: 50%;
+    border: 5px white solid;
+}
+.boton{
+    width:100%;
+}
+.pies__logo{
+    width: 10%;
+    border-radius: 25%;
+    border: 5px white solid;
+}
+.pie-contac__logogithub{
+    border-radius: 50%;
+    border: 5px white solid;
+    width: 60px;
+    height: 60px;
+}
+.pie-contact__logotwitter{
+    border-radius: 50%;
+    border: 5px white solid;
+    width: 60px;
+    height: 60px;
+}
+.pie-contac__logodiscord{
+    border-radius: 50%;
+    border: 5px white solid;
+    width: 60px;
+    height: 60px;
+}
+.pie-contac__logosteam{
+    border-radius: 50%;
+    border: 5px white solid;
+    width: 60px;
+    height: 60px;
+}
+.pie-contac__link-github{
+    color: whitesmoke;
+}
+.pie-contac__link-discord{
+    color: whitesmoke;
+}
+.pie-contac__link-twitter{
+    color: whitesmoke;
+}
+.pie-contac__link-steam{
+    color: whitesmoke;
 }
