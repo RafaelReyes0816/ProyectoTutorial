@@ -17,10 +17,12 @@
             <form action="/my-handling-form-page" method="post"></form>
             <ul style="list-style-type: none;">
                 <li class="formulario__nombreyapellido">
+                    <input placeholder="Introduce tu nombre y apellido">
                     <label for="name">Nombre y Apellido:</label>
                     <input type="text" id="name" name="user_name" />
                 </li>
                 <li class="formulario__correo">
+                    <input placeholder="Introduce tu correo">
                     <label for="email"> Correo Electrónico:</label>
                     <input type="text" id="mail" name="user_mail">
                 </li>
@@ -29,7 +31,8 @@
                     <input type="datetime-local" name="datetime" id="datetime" />
                 </li>
                 <li class="formulario__mensaje">
-                    <textarea id="msg" name="user_message"></textarea>
+                    <input placeholder="Escriba su mensaje">
+
                 </li>
                 <li class="formulario__button">
                     <button type="submit">Enviar</button>

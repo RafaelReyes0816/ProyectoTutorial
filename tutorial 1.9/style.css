@@ -89,6 +89,24 @@ body{
     border-radius: 5%;
     padding: 0px;
 }
+input::placeholder{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1,2cm;
+    font-family: Arial;
+}
+input::placeholder{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1,2cm;
+    font-family: Arial;
+}
+input::placeholder{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1,2cm;
+    font-family: Arial;
+}
 .pies__logo{
     width: 10%;
     border-radius: 25%;
