@@ -9,10 +9,12 @@
 .titulo__logo-primero{
     float: left;
     margin: 50px;
+    flex: auto;
 }
 .titulo__logo-segundo{
     float: right;
     margin: 50px;
+    flex: auto;
 }
 .ques__preg {
     color: yellow;
@@ -22,6 +24,114 @@
 .ques__res {
     color: lightblue;
     padding: 10px;
+}
+@media (max-width: 576px) {
+    .body{
+        font-size: 16px;
+    }
+    .titulo__logo-primero{
+        width: 200px;
+    }
+    .titulo__logo-segundo{
+        width: 200px;
+    }
+    .pies__logo{
+        width: 150px;
+        height: 250px;
+    }
+    .formulario{
+        font-size: 40px;
+    }
+}
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    
+    .titulo__logo-primero {
+        width: 200px;
+    }
+    .titulo__logo-segundo {
+        width: 200px;
+    }
+    .pies__logo{
+        width: 150px;
+        height: 250px;
+    }
+    .formulario{
+        font-size: 40px;
+    }
+}
+@media (min-width: 992px) {
+    body {
+        font-size: 18px;
+    }
+    .titulo__logo-primero {
+        width: 200px; 
+    }
+    .titulo__logo-segundo {
+        width: 200px; 
+    }
+    .pies__logo{
+        width: 150px;
+        height: 250px;
+    }
+    .formulario{
+        font-size: 40px;
+    }
+}
+@media (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+    .titulo__logo-primero {
+        width: 200px;
+    }
+    .titulo__logo-segundo {
+        width: 200px;
+    }
+    .pies__logo{
+        width: 250px;
+        height: 350px;
+    }
+    .formulario{
+        font-size: 40px;
+    }
+}
+@media (min-width: 1920px) {
+    body {
+        font-size: 27px;
+    }
+    .titulo__logo-primero {
+        width: 250px;
+    }
+    .titulo__logo-segundo {
+        width: 250px;
+    }
+    .pies__logo{
+        width: 390px;
+        height: 580px;
+    }
+    .formulario__llenado{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__llenadonombre{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__mensajes{
+        width: 400px;
+        height: 40px; 
+    }
+    .formulario__fecha2{
+        width: 400px;
+        height: 40px; 
+    }
+    .formulario__enviar{
+        width: 400px;
+        height: 40px; 
+    }
 }
 body{
     background-color: rgb(35, 33, 33);
@@ -168,7 +278,6 @@ input::placeholder{
     font-family: Arial;
 }
 .pies__logo{
-    width: 10%;
     border-radius: 25%;
     border: 5px whitesmoke solid;
 }
