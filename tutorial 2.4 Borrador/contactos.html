@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="container">
+                 <h2 class="text-center">Escríbeme un mensaje si deseas comunicarte conmigo</h2>
+        </div>
+    </header>
+    <section>
+        <div class="formulario">
+            <form action="/my-handling-form-page" method="post"></form>
+            <ul style="list-style-type: none;">
+                <li class="text-center">
+                    <input type="text" class="formulario__llenadonombre" placeholder="Nombre y Apellido">
+                </li>
+                <li class="text-center">
+                    <input type="text" class="formulario__llenado" placeholder="Introduce tu Correo">
+                </li>
+                <li class="text-center">
+                    <p class="text-center">Fecha de Nacimiento</p>
+                    <input type="datetime-local" class="formulario__fecha2" name="datetime" id="datetime" />
+                </li>
+                <li class="text-center">
+                    <input type="text" class="formulario__mensajes" placeholder="Escriba su mensaje">
+
+                </li>
+                <li class="text-center">
+                    <button type="submit" class="formulario__enviar">Enviar</button>
+                  </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="pie-contac">
+            <nav>
+                <h1 class="pie-contac__texto">Tambien puedes escribirme por redes sociales aquí te las dejo</h1>
+                <a href="https://github.com/RafaelReyes0816" target="_blank" class="btn btn-primary">GitHub</a>
+                <img class="pie-contac__logogithub" src="img/logogithub.png" alt="">
+    
+                <a href="https://twitter.com/RafaelR10996376" target="_blank" class="btn btn-primary">Twitter</a>
+                <img class="pie-contact__logotwitter" src="img/logotwitter.png" alt="">
+    
+                <a href="https://discordapp.com/users/385871294316412940" target="_blank" class="btn btn-primary">Discord</a>
+                <img class="pie-contac__logodiscord" src="img/logodiscordcolor.png" alt="">
+    
+                <a href="https://steamcommunity.com/profiles/76561198308061847/" target="_blank" class="btn btn-primary">Steam</a>
+                <img class="pie-contac__logosteam" src="img/logosteamcolor.png" alt="">
+            </nav>
+        </div>
+    </section>
+    <footer>
+        <div class="csgologofinal">
+            <img class="csgologofinal-foto" src="img/logocsgo.jpg">
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</html>
