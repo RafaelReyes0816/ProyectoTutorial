@@ -5,59 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="animacion/animate.css">
+    <style>
+        .body{
+            background-color: black;
+            color: white;
+            min-height: 100vh;
+        }
+    </style>
 </head>
 <body>
-    <div class="bg-dark">
-        <header>
-            <div class="container font-monospace text-light">
-                     <h2 class="text-center">Escríbeme un mensaje si deseas comunicarte conmigo</h2>
-            </div>
-        </header>
-        <section>
-            <div class="container font-italic">
-                <form action="/my-handling-form-page" method="post">
-                    <ul style="list-style-type: none;">
-                        <li class="text-center font-monospace p-2 m-2">
-                            <input type="text" class="formulario-control" placeholder="Nombre y Apellido">
-                        </li>
-                        <li class="text-center font-monospace p-2 m-2">
-                            <input type="text" class="formulario-control" placeholder="Introduce tu Correo">
-                        </li>
-                        <li class="text-center font-monospace p-2 m-2">
-                            <p class="text-center text-light">Fecha de Nacimiento</p>
-                            <input type="datetime-local" class="formulario-control" name="datetime" id="datetime" />
-                        </li>
-                        <li class="text-center font-monospace p-2 m-2">
-                            <input type="text" class="formulario-control" placeholder="Escriba su mensaje">
-                        </li>
-                        <li class="text-center font-monospace p-2 m-2">
-                            <button type="submit" class="btn btn-primary">Enviar</button>
-                        </li>
-                    </ul>
-                </form>
-            </div>
-        </section>
-        <section>
-            <div class="container">
-                <h3 class="text-center font-monospace text-light">También puedes escribirme por redes sociales aquí te las dejo</h3>
-                <nav class="text-center font-monospace p-3 m-3">
-                    <a href="https://github.com/RafaelReyes0816" target="_blank" class="btn btn-primary">GitHub</a>
-                    <img src="img/logogithub2.png" class="img-fluid rounded-circle img-thumbnail" alt="">
-                    <a href="https://twitter.com/RafaelR10996376" target="_blank" class="btn btn-primary">Twitter</a>
-                    <img src="img/logotwitter2.jpg" class="img-fluid rounded-circle img-thumbnail" alt="">
-                    <a href="https://discordapp.com/users/385871294316412940" target="_blank" class="btn btn-primary">Discord</a>
-                    <img src="img/logodiscord2.png" class="img-fluid rounded-circle img-thumbnail" alt="">
-                    <a href="https://steamcommunity.com/profiles/76561198308061847/" target="_blank" class="btn btn-primary">Steam</a>
-                    <img src="img/logosteam2.png" class="img-fluid rounded-circle img-thumbnail" alt="">
-                </nav>
-            </div>
-        </section>
-        <footer>
-            <div class="container text-center">
-                <img src="img/logocsgo.jpg" class="img-fluid rounded-circle img-thumbnail" alt="Logo de CS:GO">
-            </div>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <div class="wow bounceInUp">
+        <div class="bg-dark container-fluid body">
+            <header>
+                <div class="container font-monospace text-light">
+                         <h2 class="text-center">Escríbeme un mensaje si deseas comunicarte conmigo</h2>
+                </div>
+            </header>
+            <section>
+                <div class="container font-italic">
+                    <form action="/my-handling-form-page" method="post">
+                        <ul style="list-style-type: none;">
+                            <li class="text-center font-monospace p-2 m-2">
+                                <input type="text" class="formulario-control" placeholder="Nombre y Apellido">
+                            </li>
+                            <li class="text-center font-monospace p-2 m-2">
+                                <input type="text" class="formulario-control" placeholder="Introduce tu Correo">
+                            </li>
+                            <li class="text-center font-monospace p-2 m-2">
+                                <p class="text-center text-light">Fecha de Nacimiento</p>
+                                <input type="datetime-local" class="formulario-control" name="datetime" id="datetime" />
+                            </li>
+                            <li class="text-center font-monospace p-2 m-2">
+                                <input type="text" class="formulario-control" placeholder="Escriba su mensaje">
+                            </li>
+                            <li class="text-center font-monospace p-2 m-2">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <h3 class="text-center font-monospace text-light">También puedes escribirme por redes sociales aquí te las dejo</h3>
+                    <nav class="text-center font-monospace p-3 m-3">
+                        <a href="https://github.com/RafaelReyes0816" target="_blank" class="btn btn-primary">GitHub</a>
+                        <img src="img/logogithub2.png" class="img-fluid rounded-circle img-thumbnail" alt="">
+                        <a href="https://twitter.com/RafaelR10996376" target="_blank" class="btn btn-primary">Twitter</a>
+                        <img src="img/logotwitter2.jpg" class="img-fluid rounded-circle img-thumbnail" alt="">
+                        <a href="https://discordapp.com/users/385871294316412940" target="_blank" class="btn btn-primary">Discord</a>
+                        <img src="img/logodiscord2.png" class="img-fluid rounded-circle img-thumbnail" alt="">
+                        <a href="https://steamcommunity.com/profiles/76561198308061847/" target="_blank" class="btn btn-primary">Steam</a>
+                        <img src="img/logosteam2.png" class="img-fluid rounded-circle img-thumbnail" alt="">
+                    </nav>
+                </div>
+            </section>
+            <footer>
+                <div class="container text-center">
+                    <img src="img/logocsgo.jpg" class="img-fluid rounded-circle img-thumbnail" alt="Logo de CS:GO">
+                </div>
+            </footer>
+        </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="animacion/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 </html>

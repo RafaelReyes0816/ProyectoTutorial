@@ -136,6 +136,7 @@
 body{
     background-color: rgb(35, 33, 33);
     color: whitesmoke;
+    min-height: 100vh;
     animation-duration: 2s;
     animation-name: animacion-principal;
 }
@@ -280,6 +281,8 @@ input::placeholder{
 .pies__logo{
     border-radius: 25%;
     border: 5px whitesmoke solid;
+    width: 250px;
+    height: 450px;
 }
 .pie-contac__logogithub{
     border-radius: 50%;
